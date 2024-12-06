@@ -110,6 +110,12 @@ footer {
     border: 1px solid black;
     border-radius: 10px;
     background-color: #3571f36f;
+    transform: scale(1);
+}
+.card-image.filtro{
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
 }
 img {
     width: 280%;
@@ -117,7 +123,7 @@ img {
     border-radius: 10px;
     margin-top: 16px;
 }
-filter{
+.filtro{
     display: none;
 }
 .search-movies{
