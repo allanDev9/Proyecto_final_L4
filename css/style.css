@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 50px;
+    background-image: url("/img/imagen-area-51.jpg");
+    background-position: center;
+    background-size: 95%;
+    opacity: 60%;
+    text-align: center;
+}
+.title-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 2, 255);
+    font-size: 60px;
+    font-weight: bold;
+    opacity: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: black;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #5100ff;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+aside{
+    flex: 20px;
+    background-color: #f2eec7;
+    padding: 20px;
+}
+section{
+    flex: 70%;
+    background-color: #e9d8a6;
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    background-color: #97916e;
+    text-align: center;
+}
+/* @media screen and (max-width: 700px) {
+    nav,.content{
+        flex-direction: column;
+    }
+} */
