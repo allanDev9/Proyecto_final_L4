@@ -32,6 +32,7 @@ nav {
     flex-wrap: wrap;
     gap: 100px;
     background-color: black;
+    padding: 10px;
 }
 
 a {
@@ -39,6 +40,13 @@ a {
     text-decoration: none;
     color: #5100ff;
     font-weight: bold;
+    transition: border-top 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    border-top: 3px solid transparent;
+}
+a:hover{
+    border-top: 3px solid red;
+    color: red;
 }
 
 .content {
@@ -84,10 +92,10 @@ footer {
 
 .container-image {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     margin-bottom: 10px;
 }
 
@@ -96,20 +104,36 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 70px;
     width: 30%;
-    height: 30%;
+    height: 200px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #3571f36f;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 280%;
+    height: 200px;
     border-radius: 10px;
+    margin-top: 16px;
+}
+filter{
+    display: none;
+}
+.search-movies{
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
 }
 
 @media screen and (max-width: 500px) {
+    nav{
+        flex-direction: row;
+        gap: 40px;
+    }
     .container-image {
         justify-content: center;
         align-items: center;
