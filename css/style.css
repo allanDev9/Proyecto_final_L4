@@ -162,6 +162,13 @@ footer p {
     margin: 0;
     font-size: 12px;
 }
+.regresar-pag-estrenos{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 @media screen and (max-width: 500px) {
     nav {
