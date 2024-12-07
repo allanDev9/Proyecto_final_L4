@@ -62,8 +62,6 @@ nav a:hover {
     margin: 20px;
     gap: 20px;
 }
-
-
 aside {
     display: flex;
     flex-direction: column;
@@ -91,8 +89,8 @@ aside {
     width: 50%;
 }
 
-section {
-    flex: 5;
+.galeria {
+    flex: 3;
     background: linear-gradient(rgb(226, 232, 177), rgb(109, 109, 141));
     padding: 20px;
     border-radius: 10px;
@@ -107,48 +105,57 @@ section {
 
 .container-image {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center; /* Centrar tarjetas */
+    gap: 20px; /* Espaciado entre tarjetas */
+    padding: 20px;
 }
 
+/* Estilo de las tarjetas */
 .card-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: rgba(83, 90, 138, 0.5);
-    padding: 15px;
-    text-align: center;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Fondo degradado */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: 200px; /* Ancho de la tarjeta */
+    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 15px;
+    color: #fff; /* Color del texto */
 }
 
+/* Efecto hover */
 .card-image:hover {
-    transform: scale(1.05);
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* Efecto de aumento */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
 }
 
+/* Imagen dentro de la tarjeta */
 .card-image img {
-    width: 100%;
+    width: 100%; /* Imagen ocupa todo el ancho */
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px; /* Bordes redondeados de la imagen */
+    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+/* Efecto en la imagen al hacer hover */
+.card-image:hover img {
+    transform: scale(1.1); /* Ampliar imagen */
+    opacity: 0.9; /* Reducir opacidad ligeramente */
+}
+
+/* Título o descripción */
 .card-image p {
-    margin-top: 10px;
-    color: #fff;
     font-size: 16px;
     font-weight: bold;
+    margin: 0;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1px;
 }
 .filtro{
     display: none;
 }
-
-
 footer {
     padding: 20px;
     background-color: #373935;
