@@ -90,8 +90,8 @@ aside {
 }
 
 .galeria {
-    flex: 3;
-    background: linear-gradient(rgb(226, 232, 177), rgb(109, 109, 141));
+    flex: 4;
+    background: linear-gradient(rgb(69, 87, 96), rgb(96, 96, 209));
     padding: 20px;
     border-radius: 10px;
 }
@@ -106,51 +106,46 @@ aside {
 .container-image {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centrar tarjetas */
-    gap: 20px; /* Espaciado entre tarjetas */
+    justify-content: center; 
+    gap: 20px;
     padding: 20px;
 }
 
-/* Estilo de las tarjetas */
 .card-image {
-    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Fondo degradado */
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra */
-    width: 200px; /* Ancho de la tarjeta */
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); 
+    border-radius: 15px; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    width: 200px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     padding: 15px;
-    color: #fff; /* Color del texto */
+    color: #fff; 
 }
 
-/* Efecto hover */
 .card-image:hover {
-    transform: scale(1.05); /* Efecto de aumento */
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
 }
 
-/* Imagen dentro de la tarjeta */
 .card-image img {
-    width: 100%; /* Imagen ocupa todo el ancho */
+    width: 100%;
     height: auto;
-    border-radius: 10px; /* Bordes redondeados de la imagen */
-    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+    border-radius: 10px; 
+    margin-bottom: 10px; 
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Efecto en la imagen al hacer hover */
 .card-image:hover img {
-    transform: scale(1.1); /* Ampliar imagen */
-    opacity: 0.9; /* Reducir opacidad ligeramente */
+    transform: scale(1.1); 
+    opacity: 0.9; 
 }
 
-/* Título o descripción */
 .card-image p {
     font-size: 16px;
     font-weight: bold;
     margin: 0;
-    text-transform: uppercase; /* Texto en mayúsculas */
+    text-transform: uppercase; 
     letter-spacing: 1px;
 }
 .filtro{
