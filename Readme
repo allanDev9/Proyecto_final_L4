@@ -1,0 +1,2 @@
+# para usar estilos de tailwind
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch 
