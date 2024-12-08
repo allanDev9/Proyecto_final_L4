@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Archivos de configuración
+.env
+package-lock.json
+
+# Archivos de salida de CSS o JS
+src/css/output.css
+
+# Configuraciones de IDE
+.vscode/
+.idea/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
