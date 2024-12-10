@@ -12,7 +12,7 @@ body {
 
 header {
     padding: 50px;
-    background-image: url("/src/img/image-header.webp");
+    background-image: url("/img/image-header.webp");
     background-position: center;
     background-size: cover;
     text-align: center;
