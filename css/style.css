@@ -167,8 +167,8 @@ footer p {
 
 @media screen and (max-width: 500px) {
     header {
-        padding: 30px; /* Ajusta el espacio alrededor del contenido */
-        background-size: 90%; /* Aumenta el tamaño del fondo */
+        padding: 30px;
+        background-size: 90%; 
     }
     header .title-header{
         font-size: 20px;
