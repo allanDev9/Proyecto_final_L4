@@ -160,7 +160,6 @@ footer p {
 .regresar-pag-estrenos{
     text-decoration: none;
     color: white;
-    background-color: black;
     padding: 10px;
     border-radius: 10px;
 }
@@ -204,5 +203,14 @@ footer p {
     }
     .card-image {
         width: 80%;
+    }
+    .regresar-pag-estrenos{
+        padding: 5px;
+        width: 50px;
+        transform: scale(1);
+        transition: all 0.5s ease;
+    }
+    .regresar-pag-estrenos:hover{
+        transform: scale(1.3);
     }
 }
