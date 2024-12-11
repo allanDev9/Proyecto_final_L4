@@ -166,9 +166,26 @@ footer p {
 }
 
 @media screen and (max-width: 500px) {
+    header {
+        padding: 30px; /* Ajusta el espacio alrededor del contenido */
+        background-size: 90%; /* Aumenta el tamaño del fondo */
+    }
+    header .title-header{
+        font-size: 20px;
+        padding: 20px;
+
+    }
     nav {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
+    }
+    aside {
+        width: 353px;
+    }
+    aside p{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .content {
@@ -179,8 +196,13 @@ footer p {
     .container-image {
         justify-content: center;
     }
-
+    .galeria{
+        width: 354px;
+    }
+    .galeria .search-movies{
+        width: 100%;
+    }
     .card-image {
-        width: 90%;
+        width: 80%;
     }
 }
