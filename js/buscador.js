@@ -3,12 +3,12 @@ document.addEventListener("keyup", (e) => {
         const searchValue = e.target.value.toLowerCase();
         let found = false;
 
-        document.querySelectorAll(".card-image").forEach(movies => {
-            if (movies.textContent.toLowerCase().includes(searchValue)) {
-                movies.classList.remove('filtro');
+        document.querySelectorAll(".card-image").forEach(movie => {
+            if (movie.textContent.toLowerCase().includes(searchValue)) {
+                movie.classList.remove('filtro');
                 found = true;
             } else {
-                movies.classList.add('filtro');
+                movie.classList.add('filtro');
             }
         });
 
@@ -21,7 +21,7 @@ document.addEventListener("keyup", (e) => {
                 message.style.textAlign = "center";
                 message.style.fontWeight = "bold";
                 message.style.color = "red";
-                document.querySelector(".container-image").appendChild(message);
+                document.querySelector("#container-image").appendChild(message);
             }
         } else if (noResultsMessage) {
             noResultsMessage.remove();

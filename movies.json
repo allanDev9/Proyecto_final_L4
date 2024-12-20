@@ -1,0 +1,29 @@
+{
+    "movies": [
+      {
+        "src": "/img/movies/image-movie-venom.avif",
+        "alt": "Venom",
+        "title": "Venom"
+      },
+      {
+        "src": "/img/movies/image-movie-intensamente.jpg",
+        "alt": "Intensamente 2",
+        "title": "Intensamente 2"
+      },
+      {
+        "src": "/img/movies/image-movie-terrifer.jpeg",
+        "alt": "Terrifer 3",
+        "title": "Terrifer 3"
+      },
+      {
+        "src": "/img/movies/image-movie-smile.jpeg",
+        "alt": "Smile",
+        "title": "Smile"
+      },
+      {
+        "src": "/img/movies/iamge-movie-wicked.png",
+        "alt": "Wicked",
+        "title": "Wicked"
+      }
+    ]
+  }

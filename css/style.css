@@ -98,7 +98,7 @@ aside {
 }
 
 
-.container-image {
+.container-movies {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -206,7 +206,7 @@ footer p {
         gap: 10px;
     }
 
-    .container-image {
+    .container-movies {
         justify-content: center;
     }
     .galeria{

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="/output.css">
     <title>Peliculas</title>
+    <script src="./js/movies.js"></script>
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
     </header>
     <nav>
         <a href="estrenos.html">Estrenos</a>
-        <a href="#">Ticked</a>
+        <a href="ticket.html">Ticked</a>
         <a href="#">Más</a>
     </nav>
     <main class="content">
@@ -29,36 +30,8 @@
         <section class="galeria">
             <h1 class="title-galeria-image text-center text-white text-7xl xs:text-4xl font-bold mb-20 mt-10">Peliculas</h1>
             <input id="search-movies" class="search-movies" type="text" placeholder="Buscar">
-            <div class="container-image">
-                <section class="card-image">
-                    <img src="/img/movies/image-movie-venom.avif" alt="">
-                    <p>Venom</p>
-                </section>
-                <section class="card-image">
-                    <img src="/img/movies/image-movie-intensamente.jpg" alt="">
-                    <p>Intensamente 2</p>
+            <div class="container-movies" id="container-movies">
 
-                </section>
-                <section class="card-image">
-                    <img src="/img/movies/image-movie-terrifer.jpeg" alt="">
-                    <p>Terrifer 3</p>
-
-                </section>
-                <section class="card-image">
-                    <img src="/img/movies/image-movie-smile.jpeg" alt="">
-                    <p>Smile</p>
-
-                </section>
-                <section class="card-image">
-                    <img src="/img/movies/iamge-movie-wicked.png" alt="">
-                    <p>Wicked</p>
-
-                </section>
-                <section class="card-image">
-                    <img src="/img/movies/image-movie-giardians-galaxy.jpeg" alt="">
-                    <p>Guardians Galaxy</p>
-
-                </section>
             </div>
         </section>
     </main>
@@ -66,6 +39,6 @@
         <p class="text-start text-xl font-bold">Hecha por: Allan Peña</p>
     </footer>
 </body>
-<script src="/js/script.js"></script>
+<script src="./js/buscador.js"></script>
 
 </html>
